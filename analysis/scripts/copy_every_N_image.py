@@ -3,8 +3,8 @@ import shutil
 
 # --- Settings ---
 source_dir = r"D:\Work\Data copies\DawangsPC\PHD\experiment\2020-02-11 and later constant P_gasDriven\0.6mm gap\0.07_p"
-dest_dir = r"D:\Work\Exp-Data\Capillary-fracturing\data\all-data\controlled-pressure\gap06mm\every100image"
-copy_every = 100   # copy every 100th image
+dest_dir = r"D:\Work\Exp-Data\Capillary-fracturing\data\all-data\controlled-pressure\gap06mm\p007\every20image"
+copy_every = 20   # copy every 100th image
 
 # Create destination folder if missing
 os.makedirs(dest_dir, exist_ok=True)

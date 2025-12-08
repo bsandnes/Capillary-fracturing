@@ -2,10 +2,10 @@ import cv2
 import os
 
 # --- Settings ---
-video_path = r"D:\Work\Exp-Data\Capillary-fracturing\data\all-data\controlled-flow-rate-0_01ml_min\phi_55\phi_055-rate001.mp4"
-output_dir = r"D:\Work\Exp-Data\Capillary-fracturing\data\all-data\controlled-flow-rate-0_01ml_min\phi_55\frames"
+video_path = r"D:\Work\Exp-Data\Capillary-fracturing\data\all-data\controlled-pressure\gap06mm\p3\p3.avi"
+output_dir = r"D:\Work\Exp-Data\Capillary-fracturing\data\all-data\controlled-pressure\gap06mm\p3\extracted_frames"
 prefix = "frame_"
-save_every = 100   # save every 100th frame
+save_every = 1   # save every N frame
 
 # Create output folder if it doesn't exist
 os.makedirs(output_dir, exist_ok=True)
