@@ -1,0 +1,11 @@
+# Ignore large full dataset
+data/all-data/
+data/all-data/**
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Python bits
+__pycache__/
+*.pyc
